@@ -23,3 +23,23 @@ I started studying Front End on the course in level UP (Dnipro). I continue lear
      * Social skills
      * Attention to details
 
+### Code Example
+It is the example what difference between `var` and `let`. Change in the loop on `let i = 0`.
+```javascript
+    let array = [1,2,3,4]
+    for (var i = 0; i < array.length; i++) {
+        setTimeout(function() {
+            console.log(i, array[i])
+        }, 100)    
+    }
+    for (var i = 0; i < array.length; i++) {
+        setTimeout(function(index, info) {
+            console.log('i = ', index, array[index], info)
+        }, 50, i, 'hola')    
+    }
+```
+
+### Experience
++ 2010-2021 full day mom
++ 2007-2010 НПП с ИИ "Укртрубоизол" IT-department
++ 2006-2007 "Active -X", 1c developer 
