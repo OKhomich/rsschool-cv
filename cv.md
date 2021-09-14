@@ -12,11 +12,14 @@
 I started studying Front End on the course in level UP (Dnipro). I continue learning by myself in this field and have started RSSchool course in september of 2021. I am going to study hard to be one of the best student.  I have basic understanding OOP, DB. I would like to try internship in IT company.
 
 ### Skills
-__Hard Skills__  | __Soft Skills__
-* HTML5          | + Social skills
-* CSS3           | + Attention to details
-* JavaScript     |
-* Git, GitHub    |
-* VSCode         |
-* Figma          |
+  + __Hard Skills__ 
+     * HTML5 
+     * CSS3 
+     * JavaScript  
+     * Git, GitHub 
+     * VSCode
+     * Figma
+  + __Soft Skills__
+     * Social skills
+     * Attention to details
 
