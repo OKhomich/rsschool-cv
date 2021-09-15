@@ -1,4 +1,4 @@
-# Olga Khomich :ukraine:, Dnipro
+# Olga Khomich (Dnipro, :ukraine:)
 ## Junior Front-End / JavaScript Developer
 
 ### Contact info
@@ -6,6 +6,7 @@
 + __Email:__ _olga.khomich13@gmail.com_ 
 + __Skype:__ _olga.khomich14_ 
 + __GitHub:__ _[https://github.com/OKhomich/](https://github.com/OKhomich/)_
++ [__LinkedIn__](https://www.linkedin.com/in/olga-khomich-197327a8/)
 
 -----------------------------------------------------------------------------
 ### Summary of Qualifications
@@ -38,6 +39,7 @@ It is the example what difference between `var` and `let`. Change `var i = 0` in
         }, 50, i, 'hola')    
     }
 ```
+[See some code jsfiddle.net](https://jsfiddle.net/user/Olhaa/fiddles/)
 
 ### Experience
 + 2010-2021 full day mom
@@ -45,14 +47,15 @@ It is the example what difference between `var` and `let`. Change `var i = 0` in
 + 2006-2007 "Active -X", 1c developer 
 
 ### Education
-* LevelUP, front-end developer Dec. 2020- June 2021
-* DNU, applied mathematics, specialization - programming 2001-2006
+* LevelUP, front-end developer, Dec. 2020- June 2021
+* DNU, applied mathematics, specialization - programming, 2001-2006
 
 ### Languages
 English - Intermediate
 > now - have started lessons with tutor
 > 2016 - American English Center, advanced course
 > 2015 - Green Forest - upperintermidiat course
+
 
 [![RSSchool](img/rs-boot.png)](https://rs.school/js/)
 
