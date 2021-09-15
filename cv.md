@@ -39,7 +39,7 @@ It is the example what difference between `var` and `let`. Change `var i = 0` in
         }, 50, i, 'hola')    
     }
 ```
-[See some code jsfiddle.net](https://jsfiddle.net/user/Olhaa/fiddles/)
+[Also see some code on jsfiddle.net](https://jsfiddle.net/user/Olhaa/fiddles/)
 
 ### Experience
 + 2010-2021 full day mom
@@ -52,9 +52,9 @@ It is the example what difference between `var` and `let`. Change `var i = 0` in
 
 ### Languages
 English - Intermediate
-> now - have started lessons with tutor
-> 2016 - American English Center, advanced course
-> 2015 - Green Forest - upperintermidiat course
+> now - have started lessons with tutor\
+> 2016 - American English Center, advanced course\
+> 2015 - Green Forest - upperintermidiat course\
 
 
 [![RSSchool](img/rs-boot.png)](https://rs.school/js/)
