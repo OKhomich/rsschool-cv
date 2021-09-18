@@ -19,9 +19,13 @@ html {
 
 ul{
     list-style: none;
+    padding: 0;
   }
 
 img {
     max-width: 100%;
-    display: inline-block;
+    display: block;
+}
+a {
+  text-decoration: none;
 }
