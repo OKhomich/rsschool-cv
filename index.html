@@ -19,71 +19,112 @@
         <h2 class="header-title title title-big">Olga Khomich</h2>
         <h3 class="header-subtitle">Junior Front-End / JavaScript Developer</h3>
     </header>
-        <main class="main">
-            <section class="experience">
-                <h2 class="title title-big">Experience</h2>
-                <ul>
-                    <li>
-                        <div>
-                            <h3 class="title title-small">full day mom</h3>
-                            <span>2013-2021</span>
-                        </div>
-                        <p></p>
-                    </li>
-                    <li>
-                        <div>
-                            <h3 class="title title-small">SPE “Ukrtruboizol”</h3>
-                            <span>2007-2013</span>
-                        </div>
-                        <p></p>
-                    </li>
-                    <li>
-                        <div>
-                            <h3 class="title title-small">"Active -X"</h3>
-                            <span>2006-2007</span>
-                        </div>
-                        <p></p>
-                    </li>
-                </ul>
-            </section>
+    <main class="main">
+        <section class="experience">
+            <h2 class="title title-big">Experience</h2>
+            <ul class="experience-list">
+                <li>
+                    <div>
+                        <h3 class="title title-small">full day mom</h3>
+                        <span>2013-2021</span>
+                    </div>
+                    <p></p>
+                </li>
+                <li>
+                    <div>
+                        <h3 class="title title-small">SPE “Ukrtruboizol”</h3>
+                        <span>2007-2013</span>
+                    </div>
+                    <p>Update and create new functional 1C, help with computer for staff, make some documentation </p>
+                </li>
+                <li>
+                    <div>
+                        <h3 class="title title-small">"Active -X"</h3>
+                        <span>2006-2007</span>
+                    </div>
+                    <p>Install, update and create new functional 1C for clints</p>
+                </li>
+            </ul>
+        </section>
 
-            <section class="education">
-                <h2 class="title title-big">Education</h2>
-                <ul>
-                    <li>
-                        <div>
-                            <h3 class="title title-small">RS School</h3>
-                            <span>September 2021 - for now</span>
-                        </div>
-                        <p>js/front-end developer</p>
-                    </li>
-                    <li>
-                        <div>
-                            <h3 class="title title-small">LevelUP</h3>
-                            <span>Dec. 2020- June 2021</span>
-                        </div>
-                        <p>front-end developer, React</p>
-                    </li>
-                    <li>
-                        <div>
-                            <h3 class="title title-small">DNU</h3>
-                            <span>2001-2006</span>
-                        </div>
-                        <p>applied mathematics, specialization - programming</p>
-                    </li>
-                </ul>
-            </section>
+        <section class="education">
+            <h2 class="title title-big">Education</h2>
+            <ul class="education-list">
+                <li>
+                    <div>
+                        <h3 class="title title-small">RS School</h3>
+                        <span>September 2021 - for now</span>
+                    </div>
+                    <p>js/front-end developer</p>
+                </li>
+                <li>
+                    <div>
+                        <h3 class="title title-small">LevelUP</h3>
+                        <span>Dec. 2020- June 2021</span>
+                    </div>
+                    <p>front-end developer, React</p>
+                </li>
+                <li>
+                    <div>
+                        <h3 class="title title-small">DNU</h3>
+                        <span>2001-2006</span>
+                    </div>
+                    <p>applied mathematics, specialization - programming</p>
+                </li>
+            </ul>
+        </section>
             
-            <section class="lenguages">
-                <h2 class="title title-big">Lenguages</h2>
-                <ul>
-                    <li>
-                        English
-                    </li>
-                    <li>Russian</li>
-                    <li>Ukrainian</li>
-                </ul>
-            </section>
+        <section class="lenguages">
+            <h2 class="title title-big">Lenguages</h2>
+            <ul class="lenguages-list">
+                <li class="skill">
+                    <span>English</span>
+                    <div class="skill__level">
+                        <div class="done"></div>
+                        <div class="done"></div>
+                        <div class="done"></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </li>
+                <li class="skill">
+                    <span>Russian</span>
+                    <div class="skill__level">
+                        <div class="done"></div>
+                        <div class="done"></div>
+                        <div class="done"></div>
+                        <div class="done"></div>
+                        <div class="done"></div>
+                    </div>
+                </li>
+                <li class="skill">
+                    <span>Ukrainian</span>
+                    <div class="skill__level">
+                        <div class="done"></div>
+                        <div class="done"></div>
+                        <div class="done"></div>
+                        <div class="done"></div>
+                        <div></div>
+                    </div>
+            </ul>
+        </section>
+        <section class="code">
+            <h2 class="title title-big">Code Example</h2>
+            <pre><code>
+    let array = [1,2,3,4]
+    for (let i = 0; i &lt; array.length; i++) {
+        setTimeout(function() {
+            console.log(i, array[i])
+        }, 100)
+    }
+    for (var i = 0; i &lt; array.length; i++) {
+        setTimeout(function(index, info) {
+            console.log('i = ', index, array[index], info)
+        }, 50, i, 'hola')    
+    }
+            </code></pre>
+            <p>Also see some code on <a href="https://jsfiddle.net/user/Olhaa/fiddles/">jsfiddle.net</a></p>
+        </section>
         </main>
 
         <aside class="sidebar">
@@ -219,13 +260,18 @@
                 </ul>
             </section>
         </aside>
+
         <footer>
-            <div>
+            <a class="footer-github" href="https://github.com/OKhomich/">
                 <img src="./img/github.svg" alt="github">
                 <span>My GitHub</span>
-            </div>
+            </a>
             <p>	&#169; 2021</p>
-            <img src="./img/rs-boot.png" alt="RSSchool">
+            <a class="footer-rsschool" href="https://rs.school/js/">
+                <span>Made for</span>
+                <img src="./img/rsschool.svg" alt="RSSchool">
+            </a>
+            
         </footer>
     </div>
 </body>

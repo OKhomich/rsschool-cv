@@ -40,8 +40,7 @@ p, ul {
 body {
     font-family: 'Alegreya', serif;
     background-color: #6f6f6f;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    
 }
 
 .container {
@@ -52,8 +51,11 @@ body {
                 "header  main"
                 "sidebar main"
                 "footer footer";
-    grid-template-rows: auto 1fr 20px;
+    grid-template-rows: auto 1fr auto;
     grid-template-columns: 45% 1fr;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: -10px -10px 25px black;
 }
 
         /* header start*/
@@ -84,7 +86,7 @@ body {
 .sidebar {
     grid-area: sidebar;
     background: #2d3f50;
-    padding: 0 35px;
+    padding: 0 35px 15px;
 }
 
 .sidebar h3 {
@@ -149,6 +151,45 @@ body {
     background-color: #2c3949;
     padding: 0 35px;
 }
+
+.main section {
+    padding-top: 40px;
+}
+
+.experience-list li,
+.education-list li {
+    padding-top: 30px;
+}
+
+.experience-list li div,
+.education-list li div {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-list li span,
+.education-list li span {
+    color: #b0accd;
+}
+
+.lenguages-list {
+    width: 300px;
+}
+
+.lenguages-list li {
+    padding-top: 10px;
+}
+
+pre,
+code {
+  font-family: "Courier New", "Courier", monospace;
+  color: #b0accd;
+}
+
+.code a {
+   color: #b0accd;
+}
 /* main end */
 
 /* footer start */
@@ -159,12 +200,30 @@ footer {
     grid-area: footer;
     /* height: 50px; */
     background: linear-gradient(#2c3949, #44345c);
-    /* background-color: #452361; */
+    padding: 20px;
 }
-footer img {
-    /* width: 30px; */
+
+.footer-github,
+.footer-rsschool {
+    display: flex;
+    align-items: center;
+}
+
+.footer-github img {
+    width: 30px;
+}
+
+.footer-github span,
+.footer-rsschool span {
+    color: #e4d3fb;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer-rsschool img {
     height: 30px;
 }
+
 /* footer end */
 
 
