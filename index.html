@@ -8,6 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- highlight.js не работала как бы мне хотелось -->
+    <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script> -->
+
     <link rel="stylesheet" href="./css/my-reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
@@ -74,9 +80,9 @@
             </ul>
         </section>
             
-        <section class="lenguages">
-            <h2 class="title title-big">Lenguages</h2>
-            <ul class="lenguages-list">
+        <section class="languages">
+            <h2 class="title title-big">Languages</h2>
+            <ul class="languages-list">
                 <li class="skill">
                     <span>English</span>
                     <div class="skill__level">
@@ -109,21 +115,21 @@
             </ul>
         </section>
         <section class="code">
-            <h2 class="title title-big">Code Example</h2>
+            <h2 class="title title-big JavaScript">Code Example</h2>
             <pre><code>
-    let array = [1,2,3,4]
-    for (let i = 0; i &lt; array.length; i++) {
-        setTimeout(function() {
-            console.log(i, array[i])
-        }, 100)
-    }
-    for (var i = 0; i &lt; array.length; i++) {
-        setTimeout(function(index, info) {
-            console.log('i = ', index, array[index], info)
-        }, 50, i, 'hola')    
-    }
+let array = [1,2,3,4]
+for (let i = 0; i &lt; array.length; i++) {
+    setTimeout(function() {
+        console.log(i, array[i])
+    }, 100)
+}
+for (var i = 0; i &lt; array.length; i++) {
+    setTimeout(function(index, info) {
+        console.log('i=', index, array[index], info)
+    }, 50, i, 'hola')
+}
             </code></pre>
-            <p>Also see some code on <a href="https://jsfiddle.net/user/Olhaa/fiddles/">jsfiddle.net</a></p>
+            <p>Also see some code on <a href="https://jsfiddle.net/user/Olhaa/fiddles/" target="_blank">jsfiddle.net</a></p>
         </section>
         </main>
 
@@ -152,13 +158,13 @@
                         <span>olga.khomich14</span>
                     </li>
                     <li>
-                        <a href="https://github.com/OKhomich/">
+                        <a href="https://github.com/OKhomich/" target="_blank">
                             <img class="info-icon" src="./img/github.svg" alt="location-pin">
                             <span>GitHub</span>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/olga-khomich-197327a8/">
+                        <a href="https://www.linkedin.com/in/olga-khomich-197327a8/" target="_blank">
                             <img class="info-icon" src="./img/linkedin.svg" alt="location-pin">
                             <span>LinkedIn</span>
                         </a>
@@ -262,12 +268,12 @@
         </aside>
 
         <footer>
-            <a class="footer-github" href="https://github.com/OKhomich/">
+            <a class="footer-github" href="https://github.com/OKhomich/" target="_blank">
                 <img src="./img/github.svg" alt="github">
                 <span>My GitHub</span>
             </a>
             <p>	&#169; 2021</p>
-            <a class="footer-rsschool" href="https://rs.school/js/">
+            <a class="footer-rsschool" href="https://rs.school/js/" target="_blank">
                 <span>Made for</span>
                 <img src="./img/rsschool.svg" alt="RSSchool">
             </a>
